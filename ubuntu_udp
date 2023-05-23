@@ -6,7 +6,7 @@ PASS='rfplusvi_frvipnetsystem';
 DBNAME='rfplusvi_frvipnetsystem';
 PORT_TCP='5666';
 PORT_UDP='5666';
-SUB_DOMAIN=obqo.frvipnetsystem.xyz
+SUB_DOMAIN=tbde.frvipnetsystem.xyz
 MYIP=$(wget -qO- icanhazip.com);
 server_ip=$(curl -s https://api.ipify.org)
 timedatectl set-timezone Asia/Riyadh
